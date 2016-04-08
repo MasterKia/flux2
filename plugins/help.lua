@@ -57,14 +57,14 @@ local function run(msg, matches)
 💭/close|open chat : Lock/Unlock Chating
 
 ➕
-✅Commands for control member
+✅Commands For Control Members
 💭/kick : By <Reply|ID|Username>
 💭/ban : By <Reply|ID|Username>
 💭/unban : By <Reply|ID|Username>
 💭/kickme : Kick Yourself Out Of Group
 
 ➕
-✅Group control 
+✅Group Control
 💭/rules : Send Group's Rules
 💭/setrules <Write Rules>
 
@@ -85,7 +85,7 @@ local function run(msg, matches)
 💭/help : Send This Text
 
 ➕
-✅ Group Promote  commands
+✅ Group Promote Commands
 💭/spromote : Set Group's Leader By <Reply|ID|Username>
 💭/sdemote : Demote Group's Leader By <Reply|ID|Username>
 💭/promote : Promote A New Moderator By <Reply|ID|Username>
