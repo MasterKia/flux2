@@ -299,7 +299,7 @@ local function show_group_settings(msg, data)
         for k,v in pairs(data[tostring(msg.to.id)]['blocked_words']) do
             wordlist = wordlist..' / '..k
         end
-        local text = "Group settings:\nLock group name : "..settings.lock_name.."\nLock group photo : "..settings.lock_photo.."\nLock group member : "..settings.lock_member.."\nLock bot : "..settings.lock_bot.."\nLock share link : "..settings.lock_link.."\nLock for public : "..settings.lock_inviteme.."\nAnti sticker : "..settings.lock_sticker.."\nLock share image : "..settings.lock_image.."\nLock share file : "..settings.lock_file.."\n\nBlocked words : "..wordlist
+        local text = "Group settings:\nLock group name : "..settings.lock_name.."\nLock group photo : "..settings.lock_photo.."\nLock group member : "..settings.lock_member.."\nLock bot : "..settings.lock_bot.."\n\nLock Posting Link : "..settings.lock_link.."\nLock for public : "..settings.lock_inviteme.."\nAnti Sticker : "..settings.lock_sticker.."\nLock Posting Image : "..settings.lock_image.."\nLock share file : "..settings.lock_file.."\n\nFiltered Words : "..wordlist
         return text
     else
         local settings = data[tostring(msg.to.id)]['settings']
