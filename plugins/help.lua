@@ -51,15 +51,9 @@ local function run(msg, matches)
   end
   if is_channel_msg(msg) then
     local text = [[‌‌✅Commands to lock|unlock
-💭/close|open name
-💭/close|open photo
-💭/close|open member
-💭/close|open bot
-
 💭/close|open link
 💭/close|open sticker
 💭/close|open file 
-💭/close|open audio
 💭/close|open chat
 
 ➕
@@ -71,19 +65,24 @@ local function run(msg, matches)
 
 ➕
 ✅Group control 
-💭/rules
-💭/setrules <write rules>
-💭/about
-💭/setabout <write about>
-💭/setphoto : then send photo
-💭/setname <write name>
-💭/id
-💭/id chat
-💭/group settings 
-💭/getlink : send link in your pv
-💭/relink <idchat> : change link group and send new link your pv
-💭/modlist
-💭/help
+💭/rules : Send Group's Rules
+💭/setrules <Write Rules>
+
+💭/about : Send Group's Description
+💭/setabout <Write Description>
+
+💭/setphoto : Then Send Group's New Photo
+💭/setname <Write Name>
+
+💭/id : Send Group And Your ID
+💭/id chat : Send Group's ID
+
+💭/group settings : Send Group Settings
+💭/getlink : Send Group's Link (To Pv)
+💭/relink <ID Chat> : Change Group's Link And Send New Link (To Pv)
+
+💭/modlist : Send List Of Group Moderators
+💭/help : Send This Text
 
 ➕
 ✅ Group Promote  commands
