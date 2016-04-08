@@ -51,17 +51,17 @@ local function run(msg, matches)
   end
   if is_channel_msg(msg) then
     local text = [[‌‌✅Commands to lock|unlock
-💭/close|open link
-💭/close|open sticker
-💭/close|open file 
-💭/close|open chat
+💭/close|open link : Lock/Unlock Link Posting
+💭/close|open sticker : Lock/Unlock Sticker Posting
+💭/close|open file  : Lock/Unlock File Posting
+💭/close|open chat : Lock/Unlock Chating
 
 ➕
 ✅Commands for control member
-💭/kick : by <reply|id|username>
-💭/ban : by <reply|id|username>
-💭/unban : by <reply|id|username>
-💭/kickme
+💭/kick : By <Reply|ID|Username>
+💭/ban : By <Reply|ID|Username>
+💭/unban : By <Reply|ID|Username>
+💭/kickme : Kick Yourself Out Of Group
 
 ➕
 ✅Group control 
@@ -79,17 +79,17 @@ local function run(msg, matches)
 
 💭/group settings : Send Group Settings
 💭/getlink : Send Group's Link (To Pv)
-💭/relink <ID Chat> : Change Group's Link And Send New Link (To Pv)
+💭/relink <ID Chat> : Change Group's Link And Send (To Pv)
 
 💭/modlist : Send List Of Group Moderators
 💭/help : Send This Text
 
 ➕
 ✅ Group Promote  commands
-💭/spromote : up leader by <reply|id|username> 
-💭/sdemote : in promote by <reply|id|username>
-💭/promote : by <reply|id|username> 
-💭/demote : by <reply|id|username> 
+💭/spromote : Set Group's Leader By <Reply|ID|Username>
+💭/sdemote : Demote Group's Leader By <Reply|ID|Username>
+💭/promote : Promote A New Moderator By <Reply|ID|Username>
+💭/demote : Demote A Moderator By <Reply|ID|Username>
 
 ➖🔸➖🔹➖🔸➖🔹➖]]
     return text
